@@ -32,7 +32,7 @@ if the config is absent or missing or has issues the values above will be used
 
 ### Configuration Options
 - **`path`**: Specifies the folder where the launcher stores the respective clients/version. If left empty, HOL will use the default path (`%appdata%/Habbo Launcher/downloads/shockwave`). If a relative path is specified (e.g., `./HabboOrigins`), it will create a folder with all the version stored within the specified path.
-- **`country`**: Specifies the country version of Habbo to launch (e.g., `"us"`, `"br"`). Defaults to `"us"` If invalid or missing.
+- **`country`**: Specifies the country version of Habbo to launch (e.g., `"us"`, `es`, `"br"`, `d`). Defaults to `"us"` If invalid or missing.
 - **`xl`**: A boolean indicating whether to launch the large client. If invalid or missing, it defaults to `true`.
 - **`delete_old_version`**: A boolean that controls whether old versions should be deleted when a new update occurs:
   - `true`: Deletes the previous version along with its subfolders.
