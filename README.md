@@ -56,9 +56,6 @@ if the config is absent or missing or has issues the values above will be used
 2. **Handles Instance Folders:** If you want to launch multiple clients at once, it creates instance folders (e.g., `37_1`, `37_2`) because only one instance of the client can be ran per installation.
 3. **Deletes Old Versions:** If `delete_old_version` is set to `true`, it deletes the most recent version (e.g., new update `38` it will only delete `37` and won't touch `36`), any left over instance folders (e.g., `37_1`, `37_2` but also `36_1`). If set to `false`, only instance folders are deleted.
 
-## Troubleshooting
-Drag and drop the exe into a command prompt (cmd.exe) and hit enter, if anything wrong it should show some sort of message there 
-
 ## Contributing
 Feel free to fork the repository and submit pull requests if you have suggestions or improvements for the launcher.
 
