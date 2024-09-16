@@ -27,9 +27,9 @@ Here’s the default `config.yml`:
 path: ""
 # country should be one of the following: us, es, br or d, if missing or invalid it will use US
 country: "us"
-# wether or not the client should launch in large mode or not, if missing or invalid it will launch in large mode
+# whether or not the client should launch in large mode or not, if missing or invalid it will launch in large mode
 xl: true
-# wether or not it should delete the previous version during update
+# whether or not it should delete the previous version during update
 delete_old_version: true
 ```
 if the config is absent or missing or has issues the values above will be used
